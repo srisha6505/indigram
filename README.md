@@ -16,11 +16,6 @@
 - **Vanishing animation**: Non-path nodes disappear with sparkle effects after BFS completion
 - **Real-time progress indicator**: Shows current BFS level and progress percentage
 
-### Realistic Social Network
-- **300 Indian users** with authentic Indian names
-- **Diverse connectivity patterns**: 4 regions with different connection densities
-- **Guaranteed path diversity**: Ensures 1-4 degrees of separation between users
-- **Smart grid layout**: Optimal node distribution across the screen
 
 ### Interactive Controls
 - **Click-to-explore**: Select start and target users with mouse clicks
@@ -30,7 +25,6 @@
 
 ### Modern UI/UX
 - **Fullscreen support**: F11 toggle and resizable windows
-- **Indian-themed design**: Saffron color scheme inspired by Indian culture
 - **Comprehensive information panel**: Shows network statistics, user details, and path information
 - **Smooth animations**: Pulse effects, ripples, and gradient backgrounds
 - **Responsive design**: Adapts to different screen sizes
