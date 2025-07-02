@@ -231,28 +231,6 @@ python --version
 - [Six Degrees of Separation](https://en.wikipedia.org/wiki/Six_degrees_of_separation)
 - [Small World Networks](https://en.wikipedia.org/wiki/Small-world_network)
 
-### Pygame Development
-- [Pygame Documentation](https://www.pygame.org/docs/)
-- [Python Game Development](https://realpython.com/pygame-a-primer/)
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Improve documentation
-
-## 🙏 Acknowledgments
-
-- **Indian Culture**: Color scheme and naming inspired by Indian heritage
-- **Pygame Community**: For the excellent game development framework
-- **Graph Theory**: Built on fundamental computer science concepts
-- **Educational Purpose**: Designed to make algorithms accessible and visual
 
 ---
 
