@@ -1,44 +1,41 @@
-# 🇮🇳 इंडिग्राम (Indigram) - Social Network BFS Visualization
+# इंडिग्राम (Indigram) - Social Network BFS Visualization
 
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://python.org)
 [![Pygame](https://img.shields.io/badge/Pygame-2.0%2B-green.svg)](https://pygame.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Indigram** is an interactive social network visualization tool that demonstrates the **Breadth-First Search (BFS)** algorithm in action. Built with Python and Pygame, it creates a beautiful, educational visualization of how social networks connect people and how the BFS algorithm finds the shortest path between any two users.
 
-![Indigram Demo](https://img.shields.io/badge/Features-Interactive%20BFS%20Visualization-orange)
+## Features
 
-## 🌟 Features
-
-### 🎯 **Interactive BFS Visualization**
+### Interactive BFS Visualization
 - **Step-by-step BFS exploration**: Watch the algorithm explore nodes level by level
 - **Color-coded states**: 
-  - 🟡 **Yellow**: Currently exploring nodes
-  - 🔵 **Blue**: Already visited nodes  
-  - 🟠 **Gold**: Final shortest path
+  - Yellow: Currently exploring nodes
+  - Blue: Already visited nodes  
+  - Gold: Final shortest path
 - **Vanishing animation**: Non-path nodes disappear with sparkle effects after BFS completion
 - **Real-time progress indicator**: Shows current BFS level and progress percentage
 
-### 🌐 **Realistic Social Network**
+### Realistic Social Network
 - **300 Indian users** with authentic Indian names
 - **Diverse connectivity patterns**: 4 regions with different connection densities
 - **Guaranteed path diversity**: Ensures 1-4 degrees of separation between users
 - **Smart grid layout**: Optimal node distribution across the screen
 
-### 🎮 **Interactive Controls**
+### Interactive Controls
 - **Click-to-explore**: Select start and target users with mouse clicks
 - **Random demo mode**: Automatically selects random user pairs
 - **Real-time path finding**: Instant BFS visualization between any two users
 - **Multiple UI controls**: Buttons and keyboard shortcuts
 
-### 🖥️ **Modern UI/UX**
+### Modern UI/UX
 - **Fullscreen support**: F11 toggle and resizable windows
 - **Indian-themed design**: Saffron color scheme inspired by Indian culture
 - **Comprehensive information panel**: Shows network statistics, user details, and path information
 - **Smooth animations**: Pulse effects, ripples, and gradient backgrounds
 - **Responsive design**: Adapts to different screen sizes
 
-## 🚀 Installation Guide
+## Installation Guide
 
 ### Prerequisites
 - **Python 3.7 or higher**
@@ -87,7 +84,7 @@ pip install pygame
 python social_network_bfs.py
 ```
 
-## 🎮 How to Use
+## How to Use
 
 ### Basic Usage
 1. **Launch the application**: Run `python social_network_bfs.py`
@@ -97,24 +94,24 @@ python social_network_bfs.py
 
 ### Controls
 
-#### 🖱️ Mouse Controls
+#### Mouse Controls
 - **Left Click on user**: Select start point, then target point
 - **Left Click on buttons**: Use panel buttons for various actions
 
-#### ⌨️ Keyboard Shortcuts
+#### Keyboard Shortcuts
 - **R**: Reset current selection
 - **Space**: Random demo (selects random start and target)
 - **F11**: Toggle fullscreen mode
 - **ESC**: Exit application
 
-#### 🔘 Panel Buttons
-- **🔄 Reset**: Clear current selection
-- **🎲 Random Demo**: Automatically select random users
-- **🔄 Regenerate Network**: Create a new random network
-- **🖥️ Toggle Fullscreen**: Switch between windowed and fullscreen
-- **🚪 Exit Indigram**: Close the application
+#### Panel Buttons
+- **Reset**: Clear current selection
+- **Random Demo**: Automatically select random users
+- **Regenerate Network**: Create a new random network
+- **Toggle Fullscreen**: Switch between windowed and fullscreen
+- **Exit Indigram**: Close the application
 
-## 🧠 How It Works
+## How It Works
 
 ### The BFS Algorithm
 **Breadth-First Search (BFS)** is a graph traversal algorithm that explores nodes level by level, guaranteeing the shortest path in unweighted graphs.
@@ -127,10 +124,10 @@ python social_network_bfs.py
 5. **Repeat**: Continue until target is found or queue is empty
 
 #### Visualization Process:
-1. **🟡 Yellow Phase**: Shows nodes currently being explored
-2. **🔵 Blue Phase**: Shows nodes that have been visited
-3. **✨ Vanishing Phase**: Non-path nodes disappear with effects
-4. **🟠 Gold Phase**: Final shortest path highlighted
+1. **Yellow Phase**: Shows nodes currently being explored
+2. **Blue Phase**: Shows nodes that have been visited
+3. **Vanishing Phase**: Non-path nodes disappear with effects
+4. **Gold Phase**: Final shortest path highlighted
 
 ### Network Generation
 The social network is designed to create realistic connection patterns:
@@ -140,7 +137,7 @@ The social network is designed to create realistic connection patterns:
 - **Sparse Region** (Outer areas): Lightly connected users (3-4 degrees)
 - **Isolated Region** (Edges): Minimally connected users (4+ degrees)
 
-## 📊 Technical Specifications
+## Technical Specifications
 
 ### Performance
 - **Network Size**: 300 users with ~2,000 total connections
@@ -159,7 +156,7 @@ The social network is designed to create realistic connection patterns:
 pygame >= 2.0.0
 ```
 
-## 🎨 Visual Features
+## Visual Features
 
 ### Color Scheme
 - **Background**: Deep space gradient (Indian night sky inspired)
@@ -175,7 +172,7 @@ pygame >= 2.0.0
 - **Gradient Backgrounds**: Smooth color transitions
 - **Curved Connections**: Aesthetic curved lines between users
 
-## 🚀 Educational Value
+## Educational Value
 
 ### Computer Science Concepts
 - **Graph Theory**: Understanding social networks as graphs
@@ -190,7 +187,7 @@ pygame >= 2.0.0
 - **Network Analysis**: Understanding information spread
 - **Six Degrees of Separation**: Visualizing small-world phenomena
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
